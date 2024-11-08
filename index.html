@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="Componentes/Desktop/header.css" />
+    <link rel="stylesheet" href="Componentes/Mobile/header.css" />
+    <link rel="stylesheet" href="Componentes/Desktop/footer.css" />
+    <link rel="stylesheet" href="Componentes/Mobile/footer.css" />
+    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="Componentes/Card/card.css" />
+    <script defer src="JS/Card.js"></script>
+    <script defer src="JS/Port-service.js"></script>
+    <script defer src="index.js"></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <header class="main-header"></header>
+    <section class="main-web">
+      <div class="main-web__saludo">
+        <template id="main-web__saludo-template">
+          <div class="saludo-content">
+            <h2 class="Saludo"></h2>
+            <h2 class="Saludo2"></h2>
+          </div>
+          <img src="" alt="" class="imgSaludo" />
+        </template>
+      </div>
+      <img src="" alt="" class="main-web__img" />
+    </section>
+    <section class="main-web__about-me">
+      <div class="info-content">
+        <template id="about-me-template"
+          ><div class="info">
+            <div class="info__text-content">
+              <h2 class="info__title"></h2>
+              <p class="info__text"></p>
+            </div>
+            <img class="info__img" src="" alt="" />
+          </div>
+        </template>
+      </div>
+      <div class="main-web__services"></div>
+    </section>
+    <section class="mis-servicios">
+      <div class="service-content"></div>
+      <template id="servicios-template">
+        <div class="services-title-content">
+          <div class="servicios-title"></div>
+          <div class="servicios-title2"></div>
+        </div>
+      </template>
+      <div class="servicios-container">
+        <div class="servicios-card"></div>
+      </div>
+    </section>
+    <div class="main-footer"></div>
+  </body>
+</html>

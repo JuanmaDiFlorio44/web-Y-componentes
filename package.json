@@ -1,0 +1,14 @@
+{
+  "name": "mi-pagina-web",
+  "version": "1.0.0",
+  "homepage": "https://juanmadiflorio44.github.io/web-Y-componentes/",
+  "scripts": {
+    "start": "live-server",
+    "build": "echo 'No es necesario en un sitio estático'",
+    "deploy": "gh-pages -d ."
+  },
+  "devDependencies": {
+    "gh-pages": "^3.2.3",
+    "live-server": "^1.2.1"
+  }
+}
